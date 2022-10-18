@@ -13,7 +13,7 @@ body {
     box-sizing: border-box;
 }
 
-@import url('http://fonts.cdnfonts.com/css/clash-display');
+@import url('../http://fonts.cdnfonts.com/css/clash-display');
 .container {
     max-width: 1420px;
     width: 100%;
@@ -91,7 +91,7 @@ body {
     width: 640px;
     height: 570px;
     border-radius: 16.058px;
-    background-image: url(../img/header_photo.png);
+    background-image: url(../img/header_photo_NFT.png);
     position: absolute;
 }
 
@@ -989,6 +989,14 @@ footer h3 {
     }
     .trending {
         margin-top: 200px;
+    }
+    .swiper-button-prev,
+    .swiper-rtl .swiper-button-next {
+        display: none !important;
+    }
+    .swiper-button-next,
+    .swiper-rtl .swiper-button-prev {
+        display: none !important;
     }
 }
 

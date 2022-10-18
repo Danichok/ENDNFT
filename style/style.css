@@ -13,7 +13,13 @@ body {
     box-sizing: border-box;
 }
 
-@import url('../http://fonts.cdnfonts.com/css/clash-display');
+@font-face {
+    font-family: 'Clash Display';
+    src: url('../style/FontsFree-Net-ClashDisplay-Variable.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
 .container {
     max-width: 1420px;
     width: 100%;

@@ -91,7 +91,7 @@ body {
     width: 640px;
     height: 570px;
     border-radius: 16.058px;
-    background-image: url(/img/header_photo.png);
+    background-image: url(../img/header_photo.png);
     position: absolute;
 }
 
